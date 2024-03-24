@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns:tizen="http://tizen.org/ns/widgets" xmlns="http://www.w3.org/ns/widgets" id="http://www.simplechatapp.com.s3-website.eu-west-3.amazonaws.com/SimpleChatApp/" version="1.0.0" viewmodes="maximized">
+    <tizen:application id="iKeqzsfd0T.SimpleChatApp" package="iKeqzsfd0T" required_version="2.1"/>
+    <content src="index.html"/>
+    <feature name="http://tizen.org/feature/screen.size.normal.1080.1920"/>
+    <icon src="icon.png"/>
+    <tizen:metadata key="http://tizen.org/metadata/app_ui_type/base_screen_resolution" value="extensive"/>
+    <name>SimpleChatApp</name>
+    <tizen:profile name="tv-samsung"/>
+    <tizen:setting screen-orientation="landscape" context-menu="enable" background-support="disable" encryption="disable" install-location="auto" hwkey-event="enable"/>
+    
+    <!-- Authorizations -->
+    <tizen:privilege name="http://tizen.org/privilege/tizen"/>
+    <tizen:privilege name="http://tizen.org/privilege/filesystem.read"/>
+    <tizen:privilege name="http://tizen.org/privilege/filesystem.write"/>
+    <tizen:privilege name="http://tizen.org/privilege/system"/>
+    <tizen:privilege name="http://developer.samsung.com/privilege/contentsdownload"/>
+    <tizen:privilege name="http://developer.samsung.com/privilege/network.public"/>
+    <tizen:privilege name="http://tizen.org/privilege/download"/>
+    <tizen:privilege name="http://tizen.org/privilege/mediastorage"/>
+    <tizen:privilege name="http://tizen.org/privilege/externalstorage"/>
+    <tizen:privilege name="http://tizen.org/privilege/internet"/>
+    <tizen:privilege name="http://tizen.org/privilege/tv.inputdevice"/>
+    
+</widget>
